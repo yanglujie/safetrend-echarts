@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html style="height:100%">
+<head>
+<meta charset="utf-8">
+	<title>安全态势</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/safetrend.css">
+
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript"></script>
+</head>
+<body style="height:100%">
+<div class="top">
+<p><span class="top-left">安码科技</span><span class="top-right">分布式主动防护系统</span></p>
+</div>
+<div class="top-menu">
+<ul>
+<li><a href="">蚁群监视</a></li>
+<li><a>安全态势</a></li>
+<li><a>领域管理</a></li>
+<li><a>代理管理</a></li>
+<li><a>攻击场景</a></li>
+<li><a>策略管理</a></li>
+<li><a>告警管理</a></li>
+<li><a>蚂蚁发现</a></li>
+<li><a>资产管理</a></li>
+<li><a>知识管理</a></li>
+<li><a>用户管理</a></li>
+
+
+
+</ul>
+
+
+</div>
+<div class="main-content">
+<div class="main-left">
+<div class="main-lefttop">
+<div class="left-title1">
+<div class="title"><p class="title-text">聚合关联</p></div>
+<div><img id="juhebutton" src="images/icon.png" onclick="zoom('juhe')"></div>
+</div>
+<div class="lefttop-main">
+<div id="juhe" style="width: 100%;height:100%;"></div>
+</div>
+</div>
+<div class="main-leftdown">
+<div class="left-title1">
+<div class="title"><p class="title-text">事件雷达</p></div>
+<div><img id="eventraderbutton" src="images/icon.png" onclick="zoom('eventrader')"></div>
+</div>
+<div class="leftdown-main">
+<div id="eventrader" style="width: 100%;height:100%;" ></div>
+</div>
+</div>
+</div>
+<div class="main-middle">
+<div id="globefight" style="width:100%;height:101%;" ></div>
+ 
+ <div class="eventmenu">
+ <img class="event" src="images/eventlist.png">
+ <img class="analy" src="images/analy.png">
+
+ </div>
+   <div class="eventlist" style="display:none;">
+       <div class="listtitle">
+        <p>事件列表</p>
+        <div class="windowicon"><img src="images/icon.png"><img class="tonone" src="images/iconsmall.png"></div>
+       </div>
+       <div class="eventtable">
+       <div class="tabletitle">
+            <p style="margin-left:2vw;">事件类别</p>
+            <p>攻击源</p>
+            <p>源地区</p>
+            <p>攻击目标</p>
+            <p>目标地区</p>
+            <p>攻击协议</p>
+            <p>攻击端口</p>
+            <p style="margin-right:2vw;">攻击时间</p>
+       </div>
+          <div class="tabletitle1">
+            <p style="margin-left:2.5vw;font-size:0.8vw;height:100%;text-align:center;margin-right:1.5vw;">DOS</p>
+            <p style="font-size:0.8vw;width:9%;height:100%;text-align:center;">168.123.224.143</p>
+            <p style="font-size:0.8vw;width:7%;height:100%;text-align:center">呼和浩特</p>
+            <p style="font-size:0.8vw;width:5%;height:100%;text-align:center">重庆</p>
+            <p style="font-size:0.8vw;width:5%;height:100%;text-align:center;margin-left:2vw">北京</p>
+            <p style="font-size:0.8vw;height:100%;text-align:center;margin-left:2vw">TCP</p>
+            <p style="font-size:0.8vw;height:100%;text-align:center;margin-left:1.2vw;margin-right:1.5vw;">5503</p>
+            <p style="font-size:0.8vw;height:100%;text-align:center;margin-right:0;">2017-06-21&nbsp17:28:23</p>
+       </div>
+             <div class="tabletitle1">
+            <p style="margin-left:2.5vw;font-size:0.8vw;height:100%;text-align:center;margin-right:1.5vw;">DOS</p>
+            <p style="font-size:0.8vw;width:9%;height:100%;text-align:center;">168.123.224.143</p>
+            <p style="font-size:0.8vw;width:7%;height:100%;text-align:center">呼和</p>
+            <p style="font-size:0.8vw;width:5%;height:100%;text-align:center">重庆</p>
+            <p style="font-size:0.8vw;width:5%;height:100%;text-align:center;margin-left:2vw">北京</p>
+            <p style="font-size:0.8vw;height:100%;text-align:center;margin-left:2vw">TCP</p>
+            <p style="font-size:0.8vw;height:100%;text-align:center;margin-left:1.2vw;margin-right:1.5vw;">5503</p>
+            <p style="font-size:0.8vw;height:100%;text-align:center;margin-right:0;">2017-06-21&nbsp17:28:23</p>
+       </div>
+             <div class="tabletitle1">
+            <p style="margin-left:2.5vw;font-size:0.8vw;height:100%;text-align:center;margin-right:1.5vw;">DOS</p>
+            <p style="font-size:0.8vw;width:9%;height:100%;text-align:center;">168.123.224.143</p>
+            <p style="font-size:0.8vw;width:7%;height:100%;text-align:center">呼和浩特</p>
+            <p style="font-size:0.8vw;width:5%;height:100%;text-align:center">重庆</p>
+            <p style="font-size:0.8vw;width:5%;height:100%;text-align:center;margin-left:2vw">北京</p>
+            <p style="font-size:0.8vw;height:100%;text-align:center;margin-left:2vw">TCP</p>
+            <p style="font-size:0.8vw;height:100%;text-align:center;margin-left:1.2vw;margin-right:1.5vw;">5503</p>
+            <p style="font-size:0.8vw;height:100%;text-align:center;margin-right:0;">2017-06-21&nbsp17:28:23</p>
+       </div>
+   </div>
+   </div>
+</div>
+<div class="main-right">
+<div class="main-righttop">
+<div class="left-title1" style="height:12%">
+<div class="title"><p class="title-text">世界领域</p></div>
+<div><img id="worldheatbutton" src="images/icon.png"  onclick="zoom('worldheat')"></div>
+</div>
+<div class="worlddomain">
+<div id="worldheat" style="width:100%;height:100%; "></div>
+</div>
+</div>
+<div class="main-rightdown">
+<div class="left-title1" style="height:8%">
+<div class="title"><p class="title-text">领域管理</p></div>
+<div><img id="attackpiebutton" src="images/icon.png" onclick="zoom('attackpie')"></div>
+</div>
+<div class="main-rightdownmain">
+<div class="right-top">
+   <div id="attackpie" style="width:100%;height:100%; "></div>
+
+</div>
+<div class="right-down">
+    <div class="areatitle">
+       <p>序号</p>
+       <p>名称</p>
+       <p>攻击次数</p>
+       <p style="margin-right:0;">攻击比例</p>
+       
+   </div>
+     <div class="areatitle" style="margin-top:1vh;">
+       <p style="background-color:#243880;">A1</p>
+       <p style="background-color:#243880;">大洋洲</p>
+       <p style="background-color:#243880;">332512</p>
+       <p style="margin-right:0;background-color:#243880;">23.45%</p>
+       
+   </div>
+     <div class="areatitle" style="margin-top:0.5vh;">
+       <p style="background-color:#243880;">A1</p>
+       <p style="background-color:#243880;">大洋洲</p>
+       <p style="background-color:#243880;">332512</p>
+       <p style="margin-right:0;background-color:#243880;">23.45%</p>
+       
+   </div>
+     <div class="areatitle" style="margin-top:0.5vh;">
+       <p style="background-color:#243880;">A1</p>
+       <p style="background-color:#243880;">大洋洲</p>
+       <p style="background-color:#243880;">332512</p>
+       <p style="margin-right:0;background-color:#243880;">23.45%</p>
+       
+   </div>
+    <div class="areatitle" style="margin-top:0.5vh;">
+       <p style="background-color:#243880;">A1</p>
+       <p style="background-color:#243880;">大洋洲</p>
+       <p style="background-color:#243880;">332512</p>
+       <p style="margin-right:0;background-color:#243880;">23.45%</p>
+       
+   </div>
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jiange"></div>
+<div class="bottom">
+<div class="bottom-left">
+<div class="left-title1">
+<div class="title">
+<img class="tip" src="images/tip.png">
+<p class="title-text">攻击目标统计图</p></div>
+<div class="time">
+<img src="images/year.png">
+<img src="images/month.png">
+<img src="images/week.png">
+<img src="images/day.png">
+
+
+</div>
+
+<!-- <div><img src="images/icon.png"></div> -->
+</div>
+<div class="bottomleft-main">
+<div class="bartarget">
+<div id="toptarget"  style="width:100%;height:100%;"></div>
+</div>
+<div class="gridtarget">
+  <div class="gridtargetl">
+    <div class="gridtitle">
+      <p class="num"></p><div class="iptitle"><p class="ipaddr">IP&nbspADDRESS</p><p class="attaktimes">ATTACK&nbspTIMES</p></div>
+     </div>
+      <div class="gridtitle" style="height: 12%;">
+      <p class="num" style="font-size:0.25vw;text-align:center;padding-top:0.5vh;background-color:#243880">01</p><div class="iptitle"><p class="ipaddr" style="width:52%;background-color:#243880">192.168.221.221</p><p class="attaktimes" style="width:47%;background-color:#243880">222333</p></div>
+     </div>
+          <div class="gridtitle" style="height: 12%;">
+      <p class="num" style="font-size:0.25vw;text-align:center;padding-top:0.5vh;background-color:#243880">01</p><div class="iptitle"><p class="ipaddr" style="width:52%;background-color:#243880">192.168.221.221</p><p class="attaktimes" style="width:47%;background-color:#243880">22234</p></div>
+     </div>
+          <div class="gridtitle" style="height: 12%;">
+      <p class="num" style="font-size:0.25vw;text-align:center;padding-top:0.5vh;background-color:#243880">01</p><div class="iptitle"><p class="ipaddr" style="width:52%;background-color:#243880">192.168.221.221</p><p class="attaktimes" style="width:47%;background-color:#243880">222556</p></div>
+     </div>
+     <div class="gridtitle" style="height: 12%;">
+      <p class="num" style="font-size:0.25vw;text-align:center;padding-top:0.5vh;background-color:#243880">01</p><div class="iptitle"><p class="ipaddr" style="width:52%;background-color:#243880">192.168.221.221</p><p class="attaktimes" style="width:47%;background-color:#243880">222556</p></div>
+     </div>
+  </div>
+  <div class="gridtargetr">
+   <div class="gridtitle">
+      <p class="num"></p><div class="iptitle"><p class="ipaddr">IP&nbspADDRESS</p><p class="attaktimes">ATTACK&nbspTIMES</p></div>
+     </div>
+          <div class="gridtitle" style="height: 12%;">
+      <p class="num" style="font-size:0.25vw;text-align:center;padding-top:0.5vh;background-color:#243880">01</p><div class="iptitle"><p class="ipaddr" style="width:52%;background-color:#243880">192.168.221.221</p><p class="attaktimes" style="width:47%;background-color:#243880">222333</p></div>
+     </div>
+          <div class="gridtitle" style="height: 12%;">
+      <p class="num" style="font-size:0.25vw;text-align:center;padding-top:0.5vh;background-color:#243880">01</p><div class="iptitle"><p class="ipaddr" style="width:52%;background-color:#243880">192.168.221.221</p><p class="attaktimes" style="width:47%;background-color:#243880">22234</p></div>
+     </div>
+          <div class="gridtitle" style="height: 12%;">
+      <p class="num" style="font-size:0.25vw;text-align:center;padding-top:0.5vh;background-color:#243880">01</p><div class="iptitle"><p class="ipaddr" style="width:52%;background-color:#243880">192.168.221.221</p><p class="attaktimes" style="width:47%;background-color:#243880">222556</p></div>
+     </div>
+     <div class="gridtitle" style="height: 12%;">
+      <p class="num" style="font-size:0.25vw;text-align:center;padding-top:0.5vh;background-color:#243880">01</p><div class="iptitle"><p class="ipaddr" style="width:52%;background-color:#243880">192.168.221.221</p><p class="attaktimes" style="width:47%;background-color:#243880">222556</p></div>
+     </div>
+  </div>
+
+</div>
+</div>
+</div>
+<div class="bottom-middle">
+<div class="left-title1">
+<div class="title">
+<img class="tip" src="images/tip.png">
+<p class="title-text">攻击时间折线图</p></div>
+
+</div>
+<div class="bottom-middle-main">
+<div id="timeattack" style="width:90%;height:90%; "></div>
+<div class="daychoose">
+<img src="images/day1.png">
+<img src="images/week1.png">
+<img src="images/month1.png">
+<img src="images/year1.png">
+
+</div>
+</div>
+</div>
+<div class="bottom-right">
+<div class="left-title1">
+<div class="title">
+<img class="tip" src="images/tip1.png">
+<p class="title-text">攻击源统计图</p>
+</div>
+<div class="time">
+<input type="radio" checked="" style="display:none">
+<img id="year" src="images/year.png" onclick="changeImg(this.id);">
+<input type="radio" checked="" style="display:none">
+<img id="month" src="images/month.png" onclick="changeImg(this.id);">
+<input type="radio" checked="" style="display:none">
+<img id="week" src="images/week.png" onclick="changeImg(this.id);">
+<input type="radio" checked="" style="display:none">
+<img  id="day" src="images/day.png" onclick="changeImg(this.id);">
+
+
+</div>
+<!-- <div><img src="images/icon.png"></div> -->
+</div>
+<div class="bottomright-main">
+<div class="bartarget">
+<div id="topsource"  style="width:100%;height:100%;"></div>
+</div>
+<div class="gridtarget">
+  <div class="gridtargetl">
+    <div class="gridtitle">
+      <p class="num"></p><div class="iptitle"><p class="ipaddr">IP&nbspADDRESS</p><p class="attaktimes">ATTACK&nbspTIMES</p></div>
+     </div>
+      <div class="gridtitle" style="height: 12%;">
+      <p class="num" style="font-size:0.25vw;text-align:center;padding-top:0.5vh;background-color:#243880">01</p><div class="iptitle"><p class="ipaddr" style="width:52%;background-color:#243880">192.168.221.221</p><p class="attaktimes" style="width:47%;background-color:#243880">222333</p></div>
+     </div>
+          <div class="gridtitle" style="height: 12%;">
+      <p class="num" style="font-size:0.25vw;text-align:center;padding-top:0.5vh;background-color:#243880">01</p><div class="iptitle"><p class="ipaddr" style="width:52%;background-color:#243880">192.168.221.221</p><p class="attaktimes" style="width:47%;background-color:#243880">22234</p></div>
+     </div>
+          <div class="gridtitle" style="height: 12%;">
+      <p class="num" style="font-size:0.25vw;text-align:center;padding-top:0.5vh;background-color:#243880">01</p><div class="iptitle"><p class="ipaddr" style="width:52%;background-color:#243880">192.168.221.221</p><p class="attaktimes" style="width:47%;background-color:#243880">222556</p></div>
+     </div>
+     <div class="gridtitle" style="height: 12%;">
+      <p class="num" style="font-size:0.25vw;text-align:center;padding-top:0.5vh;background-color:#243880">01</p><div class="iptitle"><p class="ipaddr" style="width:52%;background-color:#243880">192.168.221.221</p><p class="attaktimes" style="width:47%;background-color:#243880">222556</p></div>
+     </div>
+  </div>
+  <div class="gridtargetr">
+   <div class="gridtitle">
+      <p class="num"></p><div class="iptitle"><p class="ipaddr">IP&nbspADDRESS</p><p class="attaktimes">ATTACK&nbspTIMES</p></div>
+     </div>
+          <div class="gridtitle" style="height: 12%;">
+      <p class="num" style="font-size:0.25vw;text-align:center;padding-top:0.5vh;background-color:#243880">01</p><div class="iptitle"><p class="ipaddr" style="width:52%;background-color:#243880">192.168.221.221</p><p class="attaktimes" style="width:47%;background-color:#243880">222333</p></div>
+     </div>
+          <div class="gridtitle" style="height: 12%;">
+      <p class="num" style="font-size:0.25vw;text-align:center;padding-top:0.5vh;background-color:#243880">01</p><div class="iptitle"><p class="ipaddr" style="width:52%;background-color:#243880">192.168.221.221</p><p class="attaktimes" style="width:47%;background-color:#243880">22234</p></div>
+     </div>
+          <div class="gridtitle" style="height: 12%;">
+      <p class="num" style="font-size:0.25vw;text-align:center;padding-top:0.5vh;background-color:#243880">01</p><div class="iptitle"><p class="ipaddr" style="width:52%;background-color:#243880">192.168.221.221</p><p class="attaktimes" style="width:47%;background-color:#243880">222556</p></div>
+     </div>
+     <div class="gridtitle" style="height: 12%;">
+      <p class="num" style="font-size:0.25vw;text-align:center;padding-top:0.5vh;background-color:#243880">01</p><div class="iptitle"><p class="ipaddr" style="width:52%;background-color:#243880">192.168.221.221</p><p class="attaktimes" style="width:47%;background-color:#243880">222556</p></div>
+     </div>
+  </div>
+
+</div>
+</div>
+</div>
+</div>
+<script src="js/echarts.js"></script>
+ <script src="echarts-gl/echarts-gl.js"></script>
+ <script src="echarts-gl/lib/jquery.min.js"></script>
+ <script src="echarts-gl/lib/map/js/world.js"></script>
+ <script src="js/worldfight.js"></script>
+ <script src="js/juhe.js"></script>
+<!--  <script src="js/esl.js"></script>
+ <script src="js/config.js"></script> -->
+ <script src="js/worldheat.js"></script>
+ <script src="js/timeattack.js"></script>
+ <script src="js/eventrader.js"></script>
+ <script src="js/toptarget.js"></script>
+ <script src="js/topsource.js"></script>
+ <script src="js/attackpie.js"></script>
+ <script src="js/safetrend.js"></script>
+<script type="text/javascript"></script>
+ 
+
+<script type="text/javascript">
+
+function changeImg(id){
+ // alert(id);
+ var imgurl=$('#'+id).attr('src');
+ var imgstr=imgurl.substr(-9,8).split('.')[0];
+ console.log($('#'+id).prev().prev());
+  $('#year').attr('src','images/year.png');
+  $('#day').attr('src','images/day.png');
+  $('#month').attr('src','images/month.png');
+  $('#week').attr('src','images/week.png');
+ if(imgstr=='active'){
+   $('#'+id).attr('src','images/'+id+'.png');
+ }else{
+ $('#'+id).attr('src','images/'+id+'active.png');
+}
+
+}
+
+
+
+</script>
+</body>
+</html>

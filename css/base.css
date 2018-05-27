@@ -1,0 +1,29 @@
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	margin: 0px;
+	/*background-color: #010150;*/
+	/*background-image: none;
+	position: static;*/
+	background:transparent;
+	left: auto;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	text-align: left;
+}
+
+a{
+    text-decoration: none;
+    color: #e4dfdf;
+    cursor: pointer;
+}
+
+ul, li{
+    list-style: none;
+}
